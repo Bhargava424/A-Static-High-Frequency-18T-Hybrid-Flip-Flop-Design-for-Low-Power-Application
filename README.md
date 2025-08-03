@@ -1,5 +1,5 @@
 # A-Static-High-Frequency-18T-Hybrid-Flip-Flop-Design-for-Low-Power-Application
-To design and simulate A Static High Frequency 18T Hybrid Flip-Flop Design for Low Power Application using TANNER EDA
+This presentation focuses on Efficient Hybrid Topological Flip-Flop Design for enhancing low power applications with partially static high frequency 18 T transistors. The design aims to achieve a balance between power efficiency and high frequency operation, addressing the demands of modern electronic devices.
 
 
 **ABSTRACT**
