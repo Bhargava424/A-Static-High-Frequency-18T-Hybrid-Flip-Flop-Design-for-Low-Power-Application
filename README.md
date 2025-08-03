@@ -1,2 +1,10 @@
 # A-Static-High-Frequency-18T-Hybrid-Flip-Flop-Design-for-Low-Power-Application
 To design and simulate A Static High Frequency 18T Hybrid Flip-Flop Design for Low Power Application using TANNER EDA
+
+
+**ABSTRACT**
+
+The digital electronics landscape has been transformed by the introduction of an ultra-low power true 1 φ clocking flip-flop, utilizing a mere eighteen transistors. This flip-flop, a synchronous bi stable element, is pivotal in digital systems as it stores single-bit information. The design of this Master Slave (MS) type architecture employs topological, logical, and adaptive coupling techniques. These techniques ensure the minimum number of transistors are used, thereby reducing complexity and power consumption. The design comprises of complementary pass transistor logic and static complementary MOS logic, a combination that offers low power and low delay, thereby speeding up the flip-flops. The proposed circuit was implemented using Cadence Virtuoso, a leading tool in the design and simulation of electronic systems. It was then compared with five other reported logic structures of flip-flops. The results were astounding. The proposed hybrid logic architecture showed the highest percentage improvement in terms of power, a whopping 49.73%, as compared to LRFF. In addition to power efficiency, the proposed design also improved the delay and energy efficiency (EDP). The Monte Carlo simulation, performed for C to Q Delay for 20K samples, further validated these improvements. One of the key innovations in this design is the reduction in the number of PMOS transistors. This reduction significantly decreases the total area of the proposed flip-flop by a minimum of 9.49% in comparison to state-of-the-art work. This compact design does not compromise on performance. The proposed circuit can work properly within a frequency range up to 1 GHz. The proposed design was also compared with the reported 18T TSPC flip-flop. The results further underscored the superiority of the proposed design in terms of power efficiency, delay, and area.
+
+
+
