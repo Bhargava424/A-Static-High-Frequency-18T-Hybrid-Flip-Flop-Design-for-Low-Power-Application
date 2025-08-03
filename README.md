@@ -5,7 +5,33 @@ This presentation focuses on Efficient Hybrid Topological Flip-Flop Design for e
 **ABSTRACT**
 
 The digital electronics landscape has been transformed by the introduction of an ultra-low power true 1 φ clocking flip-flop, utilizing a mere eighteen transistors. This flip-flop, a synchronous bi stable element, is pivotal in digital systems as it stores single-bit information. The design of this Master Slave (MS) type architecture employs topological, logical, and adaptive coupling techniques. These techniques ensure the minimum number of transistors are used, thereby reducing complexity and power consumption. The design comprises of complementary pass transistor logic and static complementary MOS logic, a combination that offers low power and low delay, thereby speeding up the flip-flops. The proposed circuit was implemented using Cadence Virtuoso, a leading tool in the design and simulation of electronic systems. It was then compared with five other reported logic structures of flip-flops. The results were astounding. The proposed hybrid logic architecture showed the highest percentage improvement in terms of power, a whopping 49.73%, as compared to LRFF. In addition to power efficiency, the proposed design also improved the delay and energy efficiency (EDP). The Monte Carlo simulation, performed for C to Q Delay for 20K samples, further validated these improvements. One of the key innovations in this design is the reduction in the number of PMOS transistors. This reduction significantly decreases the total area of the proposed flip-flop by a minimum of 9.49% in comparison to state-of-the-art work. This compact design does not compromise on performance. The proposed circuit can work properly within a frequency range up to 1 GHz. The proposed design was also compared with the reported 18T TSPC flip-flop. The results further underscored the superiority of the proposed design in terms of power efficiency, delay, and area.
+Proposed Method Using 18 Transistor
 
 <img width="577" height="370" alt="image" src="https://github.com/user-attachments/assets/5f70d491-aa96-436b-9ada-7779e5ceba25" />
 
+Circuit connection of Master- slave D-flip-flop using TCFF technique
 
+<img width="577" height="334" alt="image" src="https://github.com/user-attachments/assets/f9245b04-f682-4e84-bf8b-213b08f3c59c" />
+
+Simulation wave forms low power 18- transistor true single phase clocking using logic reduction schemes
+
+**Transistor count**
+
+Transistor - 18
+
+**Power Results**
+
+VV1 from time 0 to 1e-008
+Average power consumed -> 1.864460e-005 watts
+Max power 2.815357e-004 at time 1e-009 
+Min power 0.000000e+000 at time 0 
+
+**Propagation Time**
+
+Parsing                          0.11 seconds
+Setup                            0.03 seconds
+DC operating point               0.08 seconds
+Transient Analysis               0.03 seconds
+Overhead                         0.39 seconds
+-----------------------------------------
+Total                            0.64 seconds
